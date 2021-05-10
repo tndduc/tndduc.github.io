@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>RedStort| Web bán giày chính hãng</title>
+	<title>The Red | Web bán giày chính hãng</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
 </head>
 <body>
+
 <!-- menu -->
 <div class="menu">
 	<header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container">
-	  <a class="navbar-brand" href="#" style="color: red;font: 2em ;">RedStore</a>
+	  <a class="navbar-brand" href="#" style="color: red;font: 2em ;"><img src="img/TheRed.png" alt="" style="width: 150px;"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -40,10 +41,29 @@
 	      </li>
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	      <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm Kiếm</button>
 	    </form>
+		<ul class="navbar-nav d-flex flex-row">
+			<!-- Icons -->
+			<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="#">
+				<i class="fab fa-facebook"></i>
+			  </a>
+			</li>
+			<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="#">
+				<i class="fas fa-shopping-cart"></i> 
+			  </a>
+			</li>
+					<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="page/login.html">
+				<i class="fas fa-user"></i>Đăng Nhập
+			  </a>
+			</li>
+		  </ul>
 	  </div>
+	 
   </div>
 </nav>
 </header>
@@ -91,100 +111,454 @@
 <!-- list product -->
 <div class="container">
 	<div class="row mt-5">
-		<h2 class="list-product-title">New product</h2>
+		<h2 class="list-product-title">Sản phẩm mới </h2>
 		<div class="list-product-subtitle">
-			<p>List product description</p>
+			<p>Danh sách sản phẩm</p>
 		</div>
 		<div class="product-group">
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes12.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes2.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes3.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes4.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
-				</div>				
+				</div>		
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes5.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes9.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes11.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-12">
-					<div class="card card-product mb-3">
-					  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+				<div class="col-md-3 col-sm-6 col-12" ><a href="#">
+					<div class="card card-product mb-3" >
+					  <img class="card-img-top" src="img/shoes8.png" alt="Card image cap" >
 					  <div class="card-body">
-					    <h5 class="card-title">Product</h5>
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    <a href="#" class="btn btn-primary">Go somewhere</a>
-					  </div>
+					    <h5 class="card-title" >Product</h5></a>
+						    <p class="card-text">
+							<h6 class="mb-0">
+								<span class="text-danger mr-1">$12.99</span>
+								<span class="text-grey"><s>$36.99</s></span>
+							  </h6>
+						</p>
+						<button type="button" class="btn btn-primary btn-sm mr-1 mb-2">
+							<i class="fas fa-shopping-cart pr-2"></i>Add to cart
+						<button type="button" class="btn btn-danger btn-sm px-3 mb-2"><i class="far fa-heart"></i></button>
+						<hr>
+						<div class="rating" style="position: relative;right: 0; ">												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>												
+							<i class="fas fa-star fa-sm text-primary"></i>						
+							<i class="far fa-star fa-sm text-primary"></i>
+						</div>
+					  </div>		
 					</div>
-				</div>				
+				</div>	
+			</div>
+		</div>
+		<button type="button" class="btn btn-info mx-auto" ><a href="#" style="color: aliceblue;"> Xem Thêm > </a></button>
+	</div>
+</div>
+
+ 
+<hr>
+<h2 style="padding-left: 50px;">	Bộ Sưu Tập </h2>
+
+<!--start collection2-->
+<div class="row collection1">
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<div class="hovereffect">
+			<img class="img-responsive" src="img/collection.jpg" alt="">
+			<div class="overlay">
+			   <h2>Nishikigoi</h2>
+			   <a class="info" href="#">Xem chi tiết</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<div class="hovereffect">
+			<img class="img-responsive" src="img/collectin2.jpg" alt="">
+			<div class="overlay">
+			   <h2>Bách Quỷ Dạ Hành</h2>
+			   <a class="info" href="#">Xem chi tiết</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<div class="hovereffect">
+			<img class="img-responsive" src="img/collection3.jpg" alt="">
+			<div class="overlay">
+			   <h2>Blanet</h2>
+			   <a class="info" href="#">Xem chi tiết</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<div class="hovereffect">
+			<img class="img-responsive" src="img/collection.jpg" alt="">
+			<div class="overlay">
+			   <h2>Nishikigoi</h2>
+			   <a class="info" href="#">Xem chi tiết</a>
 			</div>
 		</div>
 	</div>
 </div>
+<hr>
 <!-- end list product -->
-
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+	<!-- Grid container -->
+	<div class="container p-4">
+	  <!-- Section: Social media -->
+	  <section class="mb-4">
+		<!-- Facebook -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-facebook-f"></i
+		></a>
+  
+		<!-- Twitter -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-twitter"></i
+		></a>
+  
+		<!-- Google -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-google"></i
+		></a>
+  
+		<!-- Instagram -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-instagram"></i
+		></a>
+  
+		<!-- Linkedin -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-linkedin-in"></i
+		></a>
+  
+		<!-- Github -->
+		<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+		  ><i class="fab fa-github"></i
+		></a>
+	  </section>
+	  <!-- Section: Social media -->
+  
+	  <!-- Section: Form -->
+	  <section class="">
+		<form action="">
+		  <!--Grid row-->
+		  <div class="row d-flex justify-content-center">
+			<!--Grid column-->
+			<div class="col-auto">
+			  <p class="pt-2">
+				<strong>Sign up for our newsletter</strong>
+			  </p>
+			</div>
+			<!--Grid column-->
+  
+			<!--Grid column-->
+			<div class="col-md-5 col-12">
+			  <!-- Email input -->
+			  <div class="form-outline form-white mb-4">
+				<input type="email" id="form5Example2" class="form-control" />
+				<label class="form-label" for="form5Example2">Email address</label>
+			  </div>
+			</div>
+			<!--Grid column-->
+  
+			<!--Grid column-->
+			<div class="col-auto">
+			  <!-- Submit button -->
+			  <button type="submit" class="btn btn-outline-light mb-4">
+				Subscribe
+			  </button>
+			</div>
+			<!--Grid column-->
+		  </div>
+		  <!--Grid row-->
+		</form>
+	  </section>
+	  <!-- Section: Form -->
+  
+	  <!-- Section: Text -->
+	  <section class="mb-4">
+		<p>
+		  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+		  repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+		  eum harum corrupti dicta, aliquam sequi voluptate quas.
+		</p>
+	  </section>
+	  <!-- Section: Text -->
+  
+	  <!-- Section: Links -->
+	  <section class="">
+		<!--Grid row-->
+		<div class="row">
+		  <!--Grid column-->
+		  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+			<h5 class="text-uppercase">Links</h5>
+  
+			<ul class="list-unstyled mb-0">
+			  <li>
+				<a href="#!" class="text-white">Link 1</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 2</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 3</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 4</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+  
+		  <!--Grid column-->
+		  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+			<h5 class="text-uppercase">Links</h5>
+  
+			<ul class="list-unstyled mb-0">
+			  <li>
+				<a href="#!" class="text-white">Link 1</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 2</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 3</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 4</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+  
+		  <!--Grid column-->
+		  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+			<h5 class="text-uppercase">Links</h5>
+  
+			<ul class="list-unstyled mb-0">
+			  <li>
+				<a href="#!" class="text-white">Link 1</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 2</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 3</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 4</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+  
+		  <!--Grid column-->
+		  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+			<h5 class="text-uppercase">Links</h5>
+  
+			<ul class="list-unstyled mb-0">
+			  <li>
+				<a href="#!" class="text-white">Link 1</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 2</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 3</a>
+			  </li>
+			  <li>
+				<a href="#!" class="text-white">Link 4</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+		</div>
+		<!--Grid row-->
+	  </section>
+	  <!-- Section: Links -->
+	</div>
+	<!-- Grid container -->
+  
+	<!-- Copyright -->
+	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+	  © 20 Copyright:
+	  <a class="text-white" href="tndduc.github.io">tndduc.github.io</a>
+	</div>
+	<!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+  
 <!-- Load jquery trước khi load bootstrap js -->
 <script src="jquery-3.3.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -198,6 +572,24 @@
 			}
 		});
 	});
+</script>
+<script>
+	$(document).ready(function() {
+$(window).scroll(function() {
+if ($(this).scrollTop() > 20) {
+$('#toTopBtn').fadeIn();
+} else {
+$('#toTopBtn').fadeOut();
+}
+});
+
+$('#toTopBtn').click(function() {
+$("html, body").animate({
+scrollTop: 0
+}, 1000);
+return false;
+});
+});
 </script>
 </body>
 
