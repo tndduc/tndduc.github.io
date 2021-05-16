@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+   
+    <title>The Red | Jordan 1 </title>
+    <style>
+      .btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+    </style>
+    <link rel="shortcut icon" href="../img/TR.png" />
+</head>
+<body>
+
+<!-- menu -->
+<div class="menu">
+	<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  <div class="container">
+	  <a class="navbar-brand" href="../index.html"><img src="../img/TheRed.png" alt="" style="width: 150px;"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="../index.html">Trang chủ  <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="doitac.html">Đối tác</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link" href="product.html" id="navbarDropdown" >
+	         Sản phẩm
+	        </a>
+	        <div class="dropdown-content">
+	          <a class="dropdown-item" href="pdnam.html">Nam </a>
+	          <a class="dropdown-item" href="pdnu.html">Nữ</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Sản phẩm khác</a>
+	        </div>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm Kiếm</button>
+	    </form>
+		<ul class="navbar-nav d-flex flex-row">
+			<!-- Icons -->
+			<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="#">
+				<i class="fab fa-facebook">
+			
+				</i>
+				
+			  </a>
+			</li>
+			<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="#">
+				<i class="fas fa-shopping-cart "> </i> 
+				<title>Giỏ hàng của bạn</title>
+			  </a>
+			</li>
+					<li class="nav-item me-3 me-lg-0">
+			  <a class="nav-link" href="dangnhap.html">
+				<i class="fas fa-user"></i> Đăng Nhập
+			  </a>
+			</li>
+		  </ul>
+	  </div>
+	 
+  </div>
+</nav>
+</header>
+</div>
+<!-- end menu -->
+    <div class="push" style="width: 100%; height: 50px;"></div>
+    <!-- list product -->
+  
+<div class="container">
+    <div class="row py-5 mt-4 align-items-center">
+        <!-- For Demo Purpose -->
+        <div class="col-md-6 pr-lg-6 mb-6 mb-md-0" >
+            <img src="../img/shoes2.png" style="width: 500px ;" alt="" class="img-fluid mb-3 d-md-block">
+            <!--start lightbox-->
+            <div class="container">
+              <div class="row">
+                <div class="row">
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                               data-image="../img/jd1h1.jpg"
+                               data-target="#image-gallery">
+                                <img class="img-thumbnail"
+                                     src="../img/jd1h1.jpg"
+                                     alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                               data-image="../img/jd1h2.jpg"
+                               data-target="#image-gallery">
+                                <img class="img-thumbnail"
+                                     src="../img/jd1h2.jpg"
+                                     alt="Another alt text">
+                            </a>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                               data-image="../img/jd1h3.jpg"
+                               data-target="#image-gallery">
+                                <img class="img-thumbnail"
+                                     src="../img/jd1h3.jpg"
+                                     alt="Another alt text">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
+                               data-image="../img/dj1h4.jpg"
+                               data-target="#image-gallery">
+                                <img class="img-thumbnail"
+                                     src="../img/dj1h4.jpg"
+                                     alt="Another alt text">
+                            </a>
+                        </div>
+                      
+                    </div>
+            
+            
+                    <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                  <button type="button" class="btn btn-secondary float-left col-md-1" id="show-previous-image" style="margin-top: 25%;"><i class="fa fa-arrow-left"></i>
+                                  </button>
+                                    <img id="image-gallery-image" class="img-responsive col-md-10 mx-auto" src="">
+                                    <button type="button" id="show-next-image" class="btn btn-secondary float-right col-md-1"style="margin-top: 25%;"><i class="fa fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="modal-footer">
+
+            
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <!--end it-->
+    
+        </div>
+
+        <!-- Registeration Form -->
+        <div class="col-md-7 col-lg-6 ml-auto">
+            <form action="#">
+                <div class="flex">
+                <div class="nameproduct"> <h4> Nike Air Jordan 1 High</h4>  </div>
+               <hr>
+
+              
+                </div>
+                <div class="cow">
+                    <div class="rating" >		
+                      		
+                        <i class="fas fa-star fa-sm text-primary"></i>												
+                        <i class="fas fa-star fa-sm text-primary"style="color: pink;"></i>												
+                        <i class="fas fa-star fa-sm text-primary"></i>												
+                        <i class="fas fa-star fa-sm text-primary"></i>						
+                        <i class="far fa-star fa-sm text-primary"></i>
+                        
+                </div>
+                <h6 style="margin-left: 10px;">   4/5 | 3\3k lượt đánh giá | 4k đã bán </h6>
+                   
+                </div>
+                <hr>
+                <div class="flex flex-column ">
+                    <h4 class="mb-0 " style="background-color: rgba(177, 177, 177, 0.493); height: 50px; padding-top: 10px; padding-left: 20px;  ">
+                        <span class="text-danger mr-1" >$274.99</span>
+                        <span class="text-grey"><s>$330.99</s></span>
+                      </h4>
+                </div>
+                <hr>
+                <div class="flex" >
+                    <label for="">Kích cỡ </label>
+                    <button type="button" class="btn btn-outline-secondary">41</button>
+                    <button type="button" class="btn btn-outline-secondary">42</button>
+                    <button type="button" class="btn btn-outline-secondary">43</button>
+                    <button type="button" class="btn btn-outline-secondary">44</button>
+                </div>
+                <hr>
+                <div class="flex" >
+                    <label for="">Số lượng </label>
+                    <div class="buttons_added">
+                        <input class="minus is-form btn " type="button" value=" - ">
+                        <input aria-label="quantity" style="width: 40px; height: 40px; padding-bottom: 5px;" class="input-qty " max="10" min="1" name="" type="number" value="1" disabled>
+                        <input class="plus is-form btn " type="button" value="+">
+                      </div>
+                </div>
+                <hr>
+                <div class="flex" >
+                    <label for=""><i class="fas fa-shipping-fast" style="margin-right: 10px;"></i>Đơn vị giao hàng  </label>
+                    <select class="form-select   "  aria-label="Default select example" style="height: 40px;">
+                        <option selected>Chọn đơn vị giao hàng</option>
+                        <option value="1">Giao hàng tiết kiệm</option>
+                        <option value="2">Giao hàng nhanh</option>
+                        <option value="3">Viettel post</option>
+                        <option value="4">Ship chung</option>
+                      </select>
+                </div>
+                <hr>
+               
+                <div class="flex">
+                  <label for=""><i class="fas fa-money-bill-wave-alt" style="margin-right: 10px;"></i>Phương thức thanh toán   </label>
+                  <select class="form-select   "  aria-label="Default select example" style="height: 40px;">
+                      <option selected>Phương thức thanh toán </option>
+                      <option value="1"> Thẻ ngân hàng</option>
+                      <option value="2">Giao hàng nhanh</option>
+                      <option value="3">Viettel post</option>
+                      <option value="4">Ship chung</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="flex ">
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#dialog1" style="margin-right: 20px;">
+                      <i class="fas fa-cart-plus"></i>
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#dialog2" style="background-color: rgba(255, 72, 0, 0.801) !important;">
+                      <i class="fas fa-cart-arrow-down"></i> 
+                      Mua hàng
+                    </button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+<hr>
+<!--chi tiet san pham dok-->
+<div class="chitiet">
+  <div class="chitiethon" style="padding-left: 50px; padding-right: 50px;" >
+    <div class="cachly" > <h3>Đôi giày nike air jodan 1 high 85 varsity red kỹ niệm 35 năm dòng sản phẩm jordan 1</h3>
+    <p>Một sản phẩm đặc biệt lần đầu tiên được ra mắt trọng sự kiện All-Star Weekend chắc chắn các bạn trẻ đam mê sneaker củng đã đoán và nghĩ ra đây là sản phẩm nào ?.    </div>
+    <div class="cachly">
+      <h3>Chất liệu</h3>
+      <p>Về phần chất liệu thì đôi jordan 1 Varsity Red được sử dụng hoàn toàn bằng chất liệu da, điều này khá phổ biến đối với dòng  jordan 1 vì đây là dòng sản phẩm được sản xuất để dành riêng cho môn thể thao bóng rổ. Vì vậy chúng phải được sử dụng chất liệu liệu nào phù hợp vừa có độ bền chịu đựng tốt và củng như mang đến cho người dùng sự thoải mái nhất định. Vì vậy chất liệu da là một trong những loại chất liệu mà được xem là phù hợp nhất hiện nay dành cho dòng sản phẩm này. Và củng như chúng có tính thời trang tạo nên sự sang trọng …      <p>Tất cả phần upper của đôi giày được làm bằng Full – grain leather, một điều hiếm thấy trên các dòng Nike cũng như Jordan. Ngoài ra, phần insole của đôi giày được hợp lại từ 2 lớp đệm trùng tông Colorway. Lớp đệm màu kem sẽ giúp đôi giày cực kì thời thượng mặc dù khá dễ bị vấy bẩn.</p>
+    </div>
+    <div class="cachly">
+      <h3>Thiết kế</h3>
+      <p>Về mặt thiết kế, dòng Nike Jordan này ứng dụng phong cách quen thuộc như các mẫu trước đó với những đường nét trẻ trung, năng động. Tương tự, thân giày cũng được in Trademark  “Air” quen thuộc, đây là điểm dễ dàng nhận biết nhất của những dòng kết hợp giữa Air Jordan và Off White.
+
+Tiếp theo, ở phiên bản lần này, phần gót giày được phủ màu trắng đục, cùng tông màu với phần vải lưới ( Mesh) ở lưỡi giày tạo cảm giác đồng bộ và hài hòa. Đây cũng là nét đặc trưng của các phiên bản Nike x Off White để phân biệt với các dòng 4s thông thường. Điểm đặc biệt nhất của dòng Jordan 4 Off White lần này là thiết kế dây buộc cùng tông màu trắng kèm theo logo Jumpman huyền thoại trên lưỡi gà. Rất lạ mắt đúng không nào?</p>
+    </div>
+     </div>
+</div>
+<!--end chi tiet san pham-->
+<!--comment okela -->
+<div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="headings d-flex justify-content-between align-items-center mb-3">
+                <h5>Đánh giá (+6)</h5>
+
+            </div>
+            <div class="card p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="user d-flex flex-row align-items-center"> <i class="fas fa-user" width="30" class="user-img rounded-circle mr-2" style="margin:10px;"></i> <span><small class="font-weight-bold text-primary"> call_me_roses</small> <small class="font-weight-bold">Hơi bị xinh đó mụi ngừi</small></span> </div> <small>2 Ngày trước</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center">                             
+                        <div class="rating" style="position: relative;right: 0;">												
+                        <i class="fas fa-star fa-sm text-primary"style="color: pink;" ></i>												
+                        <i class="fas fa-star fa-sm text-primary"></i>												
+                        <i class="fas fa-star fa-sm text-primary"></i>												
+                        <i class="fas fa-star fa-sm text-primary"></i>						
+                        <i class="fas fa-star fa-sm text-primary"></i>	
+                    </div> </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="user d-flex flex-row align-items-center"> <i class="fas fa-user" width="30" class="user-img rounded-circle mr-2" style="margin:10px;"></i> <span><small class="font-weight-bold text-primary">khiem_ngok</small> <small class="font-weight-bold">Giày riu như tô bún vậy mn ơi :v </small></span> </div> <small>3 Ngày trước</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"> 
+                        <div class="rating" style="position: relative;right: 0; ">												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>						
+                            <i class="far fa-star fa-sm text-primary"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="user d-flex flex-row align-items-center"> <i class="fas fa-user" width="30" class="user-img rounded-circle mr-2" style="margin:10px;"></i> <span><small class="font-weight-bold text-primary">baka_like_panda</small> <small class="font-weight-bold">tuyet voi</small></span> </div> <small>2 Tuần trước</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"> <i class="fab fa-user-plus text-muted"></i> <i class="fa fa-star-o text-muted"></i> 
+                        <div class="rating" style="position: relative;right: 0; ">												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>						
+                            <i class="far fa-star fa-sm text-primary"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="user d-flex flex-row align-items-center"> <i class="fas fa-user" width="30" class="user-img rounded-circle mr-2" style="margin:10px;"></i> <span><small class="font-weight-bold text-primary">Den_vau</small> <small class="font-weight-bold">D luv H</small> <small class="font-weight-bold"></small></span> </div> <small>3 Tuần trước</small>
+                </div>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+                    <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                    <div class="icons align-items-center"> 
+                        <div class="rating" style="position: relative;right: 0; ">												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>												
+                            <i class="fas fa-star fa-sm text-primary"></i>						
+                            <i class="fas fa-star fa-sm text-primary"></i>	
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end comment okela-->
+   <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="dialog1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <h5 class="modal-title">Thêm vào giỏ hàng thành công</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            
+    
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="dialog2" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <h5 class="modal-title">Mua Thành Công</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    <hr>
+   
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+      
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Form -->
+        <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+            <strong>Đóng góp ý kiến cho chúng tôi</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+            <input type="email" id="form5Example2" class="form-control" />
+            <label class="form-label" for="form5Example2">Ý kiến của bạn</label>
+            </div>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+            Gữi ý kiến 
+            </button>
+          </div>
+          <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+        </section>
+        <!-- Section: Form -->
+      
+        <!-- Section: Text -->
+        <section class="mb-4">
+        <p>
+         Website đang trong quá trình hoàn thiện, vui lòng không thanh toán hay đặt mua dưới mọi hình thức, mọi sự cố liên quan chúng tôi sẽ không chịu trách nhiệm.
+        </p>
+        </section>
+        <!-- Section: Text -->
+      
+        <!-- Section: Nguồn tham khảo -->
+        <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Nguồn Ảnh</h5>
+      
+          <ul class="list-unstyled mb-0">
+            <li>
+            <a href="https://swagger.com.vn/" class="text-white">Swagger</a>
+            </li>
+            <li>
+            <a href="https://stockx.com/" class="text-white">Stockx</a>
+            </li>
+            <li>
+    
+          </ul>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Nguồn Tư liệu</h5>
+      
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://swagger.com.vn/" class="text-white">Swagger</a>
+            </li>
+            <li>
+              <a href="https://stockx.com/" class="text-white">Stockx</a>
+            </li>
+            <li>
+      
+            </ul>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Nguồn giá</h5>
+      
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://swagger.com.vn/" class="text-white">Swagger</a>
+            </li>
+            <li>
+              <a href="https://stockx.com/" class="text-white">Stockx</a>
+            </li>
+            <li>
+      
+            </ul>
+    
+          </ul>
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Tác giả</h5>
+      
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://fb.com" class="text-white">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Trần Ngọc Đức</a>
+            </li>
+            <li>
+      
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        </section>
+        <!-- Section: Nguồn tham khảo -->
+      </div>
+      <!-- Grid container -->
+      
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 20 Copyright:
+        <a class="text-white" href="tndduc.github.io">tndduc.github.io</a>
+      </div>
+      <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+      
+    <!-- Load jquery trước khi load bootstrap js -->
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script >
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                }else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+    $('#toTopBtn').fadeIn();
+    } else {
+    $('#toTopBtn').fadeOut();
+    }
+    });
+    
+    $('#toTopBtn').click(function() {
+    $("html, body").animate({
+    scrollTop: 0
+    }, 1000);
+    return false;
+    });
+    });
+    </script>
+<script>//<![CDATA[
+    function incrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}</script>
+<script>//<![CDATA[
+    $('input.input-qty').each(function() {
+      var $this = $(this),
+        qty = $this.parent().find('.is-form'),
+        min = Number($this.attr('min')),
+        max = Number($this.attr('max'))
+      if (min == 0) {
+        var d = 0
+      } else d = min
+      $(qty).on('click', function() {
+        if ($(this).hasClass('minus')) {
+          if (d > min) d += -1
+        } else if ($(this).hasClass('plus')) {
+          var x = Number($this.val()) + 1
+          if (x <= max) d += 1
+        }
+        $this.attr('value', d).val(d)
+      })
+    })
+    //]]></script>
+<!--alo-->
+<script>let modalId = $('#image-gallery');
+
+  $(document)
+    .ready(function () {
+  
+      loadGallery(true, 'a.thumbnail');
+  
+      //This function disables buttons when needed
+      function disableButtons(counter_max, counter_current) {
+        $('#show-previous-image, #show-next-image')
+          .show();
+        if (counter_max === counter_current) {
+          $('#show-next-image')
+            .hide();
+        } else if (counter_current === 1) {
+          $('#show-previous-image')
+            .hide();
+        }
+      }
+  
+      /**
+       *
+       * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+       * @param setClickAttr  Sets the attribute for the click handler.
+       */
+  
+      function loadGallery(setIDs, setClickAttr) {
+        let current_image,
+          selector,
+          counter = 0;
+  
+        $('#show-next-image, #show-previous-image')
+          .click(function () {
+            if ($(this)
+              .attr('id') === 'show-previous-image') {
+              current_image--;
+            } else {
+              current_image++;
+            }
+  
+            selector = $('[data-image-id="' + current_image + '"]');
+            updateGallery(selector);
+          });
+  
+        function updateGallery(selector) {
+          let $sel = selector;
+          current_image = $sel.data('image-id');
+          $('#image-gallery-title')
+            .text($sel.data('title'));
+          $('#image-gallery-image')
+            .attr('src', $sel.data('image'));
+          disableButtons(counter, $sel.data('image-id'));
+        }
+  
+        if (setIDs == true) {
+          $('[data-image-id]')
+            .each(function () {
+              counter++;
+              $(this)
+                .attr('data-image-id', counter);
+            });
+        }
+        $(setClickAttr)
+          .on('click', function () {
+            updateGallery($(this));
+          });
+      }
+    });
+  
+  // build key actions
+  $(document)
+    .keydown(function (e) {
+      switch (e.which) {
+        case 37: // left
+          if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+            $('#show-previous-image')
+              .click();
+          }
+          break;
+  
+        case 39: // right
+          if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+            $('#show-next-image')
+              .click();
+          }
+          break;
+  
+        default:
+          return; // exit this handler for other keys
+      }
+      e.preventDefault(); // prevent the default action (scroll / move caret)
+    });
+  </script>
+<!--end alo-->
+  
+    </body>
+    
+</html>
